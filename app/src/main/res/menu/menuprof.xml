@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"
+        android:title="">
+    </item>
+
+    <item android:id="@+id/Ajouteretudiant"
+        android:icon="@drawable/ic_user"
+
+        android:title="Ajouter un etudiant" />
+    <item android:id="@+id/retireretudiant"
+        android:icon="@drawable/ic_home"
+        android:title="Retirer un etudiant" />
+    <item
+        android:id="@+id/Ajouterlivre"
+
+        android:title="Ajouter un livre" />
+
+    <item
+        android:id="@+id/retirerlivre"
+        android:title="Retirer un livre" />
+    <item
+        android:id="@+id/retirerreservation"
+
+        android:title="Retirer une reservation" />
+    <item
+        android:id="@+id/Ajouterreservation"
+        android:orderInCategory="100"
+        android:title=" Ajouter une reservation" />
+
+</menu>

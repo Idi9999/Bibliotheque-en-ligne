@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"
+        android:title="">
+    </item>
+    <item android:id="@+id/afficherlivres"
+        android:icon="@drawable/ic_book"
+        android:title="voir les livres disponibles"/>
+
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_phone"
+        android:iconTint="@color/cardview_dark_background"
+        android:title="Contactez le secrétariat" />
+    <item
+        android:id="@+id/siteweb"
+
+        android:iconTint="@color/cardview_dark_background"
+        android:title="Visitez le site de l'ecole" />
+
+</menu>

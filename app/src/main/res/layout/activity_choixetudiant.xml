@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listeetudiants"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choixetudiant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BCD4"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Vous etes connectés en tant qu'Etudiant"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="463dp"
+            android:background="@drawable/custom_layout"></androidx.viewpager.widget.ViewPager>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

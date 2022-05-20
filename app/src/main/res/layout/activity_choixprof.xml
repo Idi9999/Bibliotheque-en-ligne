@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listeetudiants"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choixprof">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BCD4"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text=" Vous etes connectez en tant que Professeur"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"></TextView>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="456dp"
+            android:background="@drawable/custom_layout"></androidx.viewpager.widget.ViewPager>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
